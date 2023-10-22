@@ -1,0 +1,14 @@
+Go through youtube video: https://www.youtube.com/watch?v=-MTSQjw5DrM
+
+
+Stack:
+	SERVER		Express Node.js
+	DATA		JSON files on harddrive
+	FRONTEND 	Vue js						Vitejs.dev
+	CSSKIT		Material Design 
+
+Dev Tools:
+	VS Code => Text editing
+	Postman => Making API calls
+	Vitejs	=> Setting up stuff like Vue
+	Git		=> For project management
