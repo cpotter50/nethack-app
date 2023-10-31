@@ -12,3 +12,9 @@ Dev Tools:
 	Postman => Making API calls
 	Vitejs	=> Setting up stuff like Vue
 	Git		=> For project management
+	
+	
+Dependencies:
+	body-parser		- Lets postman understand the bodies of messages
+	Axios			- For... something, I forget.
+	HTTPs server	- Intended to act as a landscape for Vuejs.
