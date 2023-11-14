@@ -1,5 +1,8 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import monsterGet from './components/monsterGet.vue'
+// import MyForm from './components/MyForm.vue'
+// import ApiQuery from './components/ApiQuery.vue'
 </script>
 
 <template>
@@ -10,8 +13,12 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <h1>netHack API: Rquest Data</h1>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  
+  <!-- <ApiQuery /> -->
+  <monsterGet />
+  <!-- <HelloWorld msg="The best api ever" /> -->
 </template>
 
 <style scoped>

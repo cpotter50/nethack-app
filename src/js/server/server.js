@@ -18,20 +18,21 @@ export async function start () {
     });
 
     
-    app.get ('/monster', (req, res) => {
+    app.get ('/api/monster', (req, res) => {
         res.send ({
             monsterName: "Giant Ant",
             monsterType: "Insect"
         });
     })
 
-    app.get ('/monster/:type/:name', async (req, res) => {
+    app.get ('/api/monster/:type/:name', async (req, res) => {
         let content;
         let name = req.params.name;
         let type = req.params.type;
         try {
            content = await fs.readJSON (`storage/monster/${type}/${name}`);
            res.send (content);
+           console.log ('Request made', content);
         }
         catch (err) {
             console.error (err.message);
@@ -41,7 +42,7 @@ export async function start () {
         }
     })
 
-    app.post ('/monster/:type/:name', async (req, res) => {
+    app.post ('/api/monster/:type/:name', async (req, res) => {
         let content;
         let name = req.params.name;
         let type = req.params.type;

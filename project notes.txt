@@ -18,3 +18,18 @@ Dependencies:
 	body-parser		- Lets postman understand the bodies of messages
 	Axios			- For... something, I forget.
 	HTTPs server	- Intended to act as a landscape for Vuejs.
+
+
+
+
+TO DO -	-	-	-	-	-	-	-	-	-	-
+
+	Create a page for Get / Post / Update / Delete in Vue for the Monsters of Nethack.
+
+	Get will just find monsters based on the name.
+
+	Post will create new monsters using the existing categories.
+		>Data will be based on drop-downs with some exceptions.
+		>There will be a page for CRUDing categories. 
+	
+	
